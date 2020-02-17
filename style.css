@@ -1,0 +1,115 @@
+*{
+    margin: 0 ;
+    padding:  0; 
+}
+body{
+    padding:  0 ; 
+    margin:  0 ;
+    background-color: #111 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: rgb(36, 35, 51) ; 
+}
+.container{
+     width: 50% ;
+     margin: auto ;
+     margin-top: 3rem ;
+}
+.input-container{
+    text-align: center ;
+    padding: 1rem 0 ;
+}
+.seat-container{
+    background-color: pink ;
+}
+.seat{
+    height: 15px; 
+    width: 15px; 
+    background-color: #777;
+    border-top-left-radius: 50% ;
+    border-top-right-radius: 50%; 
+    display: inline-block;
+    cursor: pointer ;
+    outline: none ;
+    
+}
+.dummy-seat{
+    height: 15px; 
+    width: 15px; 
+    background-color: #777;
+    border-top-left-radius: 50% ;
+    border-top-right-radius: 50%; 
+    display: inline-block;
+    cursor: pointer ;
+    outline: none ;
+}
+.row{
+    text-align: center;
+    margin-bottom: 10px; 
+}
+.ticket-booking-text{
+    text-align: center ;
+    text-transform: capitalize ;
+    color: #fff ;
+}
+.screen{
+    margin: auto ;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem ;
+    height: 50px; 
+    width: 200px;
+    background-color: #fff ;
+    box-shadow :  3px 3px 5px 5px #fff ;
+}
+.pick-text{
+    color: #fff ;
+    text-transform: capitalize ;
+}
+.booking-info{
+    background-color: rgb(32, 31, 46) ; 
+    text-align: center ;
+    width: 50%; 
+    margin: auto ;
+    margin-top: 20px  ;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.booking-info div{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.right-seprator{
+   margin-right: 1rem ;
+}
+.left-seprator{
+   margin-left: 1rem;
+}
+
+
+.booked{
+    background-color: #fff; 
+}
+
+.selected{
+    background-color: #6FEAF6 ;
+}
+.movie-select-input{
+    padding: 10px 1rem ; 
+    border-radius: 5px;
+    margin-left: 5px;
+    text-transform: capitalize;
+}
+.special-span{
+    color: #fff ;
+}
+
+.select{
+ background-color: #6feaf6 ;
+}
+.main-text{
+    text-align: center ;
+    color : #fff ;
+    text-transform: capitalize ;
+    padding: 10px 0 ;
+}
